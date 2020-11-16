@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>한국의 길고양이는 사람들을 왜 피하는가</title>
+	<style type="text/css">
+		h2{margin:0; padding: 0; text-align: center;}
+		section{color:white;width: 800px;height: 500px;margin: auto;
+			position: relative;}
+			.blue{background: skyblue;}
+			.green{background: lightgreen}
+			#cat{width: 200px;position: absolute;left: 290px;top: -500px;z-index: 5;}
+			#cat:hover{animation: rr3d2 3s infinite linear;}
+			#face{width: 200px;position: absolute;left: 220px;top: 50px;z-index: 5;animation: rr3d 3s infinite linear;}
+			#red{width: 50px;height: 50px;position: absolute;left:430px;top:140px;background: orange;z-index: 4;animation: rr 3s infinite linear;}
+			.perspective{perspective: 400px;z-index: 10;}
+			.bg{background: url(8.jpg);background-attachment: fixed;background-size: cover;}
+			#hi{width: 300px;position: absolute;left: 150px;top: 150px;z-index: 3;}
+			#hi2{width: 300px;position: absolute;left: 400px;top: 150px;z-index: 3;}
+			#mood1{width: 300px;position: absolute;left: 400px;top: 50px;z-index: 2;}
+			#mood2{width: 300px;position: absolute;left: 100px;top: 150px;z-index: 3;}
+			#mood3{width: 300px;position: absolute;left: 100px;top: 150px;z-index: 3;}
+			#mood4{width: 200px;height:300px;position: absolute;left: 400px;top: 150px;z-index: 3;}
+			#font{width: 500px; position: absolute;left: 150px;top:50px; }
+			#funnycat1{width: 300px;}
+
+
+
+
+      @keyframes rr{ to{transform: rotate(360deg);} }
+      @keyframes rr3d{ to{transform: rotate3d(1,0,0,360deg);} }
+      @keyframes rr3d2{ to{transform: rotate3d(0,1,0,360deg);} }
+
+	</style>
+</head>
+<body>
+
+<section class="green">
+	<h2>안녕하새오.고양이애오.</h2>
+	<img src="10.png" id="hi">
+	<img src="4.jpg" id="hi2">
+</section>
+<section class="blue perspective">
+	<h2>낙서느낌</h2>
+	<img src="cat.png" id="cat">
+	<div id="red"></div>
+	<img src="3.jpg" id="face">
+	<img src="1.jpg" id="mood1">
+	<img src="5.jpg" id="mood3">
+</section>
+<section class="bg">
+	<img src="2.jpg" id="mood2">
+	<img src="6.jpg" id="mood4">
+</section>
+<section class="blue">
+	<h2>폰트: tvn 즐거운 이야기체</h2>
+	<img src="tvnfont.png" id="font">
+</section>
+<section class="green">
+	<h2>gif</h2>
+	<img src="11.gif" id="funnycat1">
+	<img src="12.gif" id="funnycat2">
+	<img src="13.gif" id="funnycat3">
+
+</section>
+
+</body>
+</html>
